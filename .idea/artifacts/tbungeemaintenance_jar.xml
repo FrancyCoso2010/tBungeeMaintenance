@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="tbungeemaintenance:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/tbungeemaintenance_jar</output-path>
+    <root id="archive" name="tbungeemaintenance.jar">
+      <element id="module-output" name="tbungeemaintenance" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/bungee.yml" />
+    </root>
+  </artifact>
+</component>
