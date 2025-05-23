@@ -56,7 +56,7 @@ public final class Main extends Plugin {
         if (!whitelistFile.exists()) {
             getDataFolder().mkdirs();
             whitelistConfig = new YamlConfig(whitelistFile);
-            whitelistConfig.setList("whitelisted", "ImSandy_", "NotDrizy", "Plasmon__", "ItsDavlooo", "MrShadow02");
+            whitelistConfig.setList("whitelisted", "Carrellare", "NotDrizy", "Plasmon__", "ItsDavlooo", "MrShadow02");
             whitelistConfig.save();
         } else {
             whitelistConfig = new YamlConfig(whitelistFile);
